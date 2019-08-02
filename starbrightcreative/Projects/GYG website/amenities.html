@@ -1,0 +1,88 @@
+<!DOCtype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <title> GYG Features</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="box faqpicbox">
+        <div class="navbar wave" id="myTopnav">
+            <label for="toggle"> &#9776; </label>
+            <input type="checkbox" id="toggle">
+            <div class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="amenities.html">Fun Things</a>
+                <a href="faq.html">FAQ's</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="transbox">
+                <h2>Things To Do</h2>
+            </div>
+            <img id="amhouseimg" src="images/gallery/13.exteriorgyg.jpg">
+            <p class="housecaption">Golwg Y Graig ("Rock of the Sea") is the perfect base for your Welsh holiday.</p>
+
+            <div class="clear"></div>
+
+            <div class="transbox">
+                <div id="todo">
+                    <h3>Things to do in the village</h3>
+                    <dl>
+                        <dt>Visit the beaches</dt>
+                        <dd>Aberporth has two beaches. The big beach is for boats and dogs are allowed all year round. The little beach in front of GYG is perfect for swimming, and is <strong>dog-free in the summer.</strong>
+                        </dd>
+                        <dt>Go ocean kayaking</dt>
+                        <dd>Hire kayaks or bring your own! Aberporth Bay has an amazing coastline to explore by boat, and if you're lucky, you might see dolphins or seals!</dd>
+                        <dt>Wildlife Watching</dt>
+                        <dd>There are no official wildlife tours operating in Aberpoth, because we don't need them! Bring your binoculars and watch ganets, oyster catchers, gulls and other birds diving in the bay. Pods of dolphins also swim through and occasionally do some fantastic leaps, and seals use the beaches to have their pups. If you're out in a boat, they come very close!</dd>
+                        <dt>Eat at <a href="https://www.shipaberporth.co.uk/" target="_blank">The Ship</a></dt>
+                        <dd>Fantastic food, and if you've booked ahead (recommended in the summer), ask for the window table for amazing views over Aberporth Bay.</dd>
+                        <dt>Fete's</dt>
+                        <dd>Aberporth has a summer fete in July. Fancy dress competitions, stalls and even meet Gail at the Surfers Against Sewage stall!</dd>
+                    </dl>
+                    <hr>
+                    <h3>A Bit Further Afield...</h3>
+                    <dt>Walk the Ceredigion Coast Path</dt>
+                    <dd>Long walk or short, enjoy some amazing scenery and gentle to moderate dificulty walks. Visit the <a href="http://www.ceredigioncoastpath.org.uk/sections.html" target="_blank">Ceredigion Coast Path</a> website for more information. Section 1 and Section 2 are most relevant.</dd>
+                    <dt>Visit Tresaith</dt>
+                    <dd>We recommend walking the coast path to get to Tresaith. Stunning views, and a cold pint or two waiting for you in Tresaith's own The Ship pub! There's also an amazing ice-cream shop.</dd>
+                    <dt>Visit Mwnt</dt>
+                    <dd>A fantastic beach nestled between towering cliffs. There's also a traditional whitewashed church you can visit, and stunning views.</dd>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Want to keep up to date with GYG? Follow us on <a href="https://www.facebook.com/golwgygraig/" target="_blank">Facebook!</a></p>
+
+        <p>Website &copy Seren Tudor 2019.</p>
+    </footer>
+
+</body>
+<script>
+    //MAKES THE NAVBAR STICKY
+    window.onscroll = function() {
+        myFunction();
+    };
+
+    var nav = document.getElementById("myTopnav");
+
+    var sticky = nav.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            nav.classList.add("sticky")
+        } else {
+            nav.classList.remove("sticky");
+        }
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Eater&display=swap');
+
+body{
+    text-align: center;
+  align-items: center;
+    }
+h1{
+    font-family: 'Eater', cursive;
+    font-size: 48pt;
+}

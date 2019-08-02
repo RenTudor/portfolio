@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <title> GYG Contact</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Scripts/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="box faqpicbox">
+        <div class="navbar wave" id="myTopnav">
+            <label for="toggle"> &#9776; </label>
+            <input type="checkbox" id="toggle">
+            <div class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="amenities.html">Fun Things</a>
+                <a href="faq.html">FAQ's</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="transbox">
+                <h2> Contact Us</h2>
+                <p>To find availability for your holiday;</p>
+            </div>
+            <div class="contactbox">
+                <div class="card">
+                    <img src="images/phone.svg" alt="phone" style="width:100%">
+                    <div class="cardcont">
+                        <h4>Phone:</h4>
+                        <p>07984515729</p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="images/email.svg" alt="email" style="width:100%">
+                    <div class="cardcont">
+                        <h4>Email me at:</h4>
+                        <p>gailtudor@yahoo.com</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.facebook.com/golwgygraig/" target="_blank"> <img src="images/facebook.svg" alt="facebook" style="width:100%"></a>
+                    <div class="cardcont">
+                        <h4>Message me:</h4>
+                        <p>On facebook</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+    <footer>
+        <p>Want to keep up to date with GYG? Follow us on <a href="https://www.facebook.com/golwgygraig/" target="_blank">Facebook!</a></p>
+
+        <p>Website &copy Seren Tudor 2019.</p>
+
+    </footer>
+
+</body>
+<script>
+    //THIS MAKES THE NAVBAR STICKY...FOR THE MOMENT.
+    window.onscroll = function() {
+        myFunction();
+    };
+
+    var nav = document.getElementById("myTopnav");
+
+    var sticky = nav.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            nav.classList.add("sticky")
+        } else {
+            nav.classList.remove("sticky");
+        }
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <title> Aberporth Beachfront Holidays</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Scripts/scripts.js" type="text/javascript"></script>
+</head>
+
+<body id="thingspage">
+    <div id="hero-image">
+        <div id="hero-text">
+            <h1> Aberporth Beachfront Holidays</h1>
+        </div>
+    </div>
+    <div class="picbox">
+        <div class="navbar wave" id="myTopnav">
+            <label for="toggle"> &#9776; </label>
+            <input type="checkbox" id="toggle">
+            <div class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="amenities.html">Fun Things</a>
+                <a href="faq.html">FAQ's</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="content">
+
+            <div id="gallery">
+                <!--            <h2> Golwg Y Graig</h2>-->
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext"> 1/17 </div>
+                        <img src="images/gallery/0.GYGlocation.jpg" alt="Location" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 2/17 </div>
+                        <img src="images/gallery/1.viewfromfront.jpg" alt="view" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 3/17 </div>
+                        <img src="images/gallery/2.conservatory.jpg" alt="conservatory" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 4/17 </div>
+                        <img src="images/gallery/3.livingroom%20view.jpg" alt="livingroom view" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 5/17 </div>
+                        <img src="images/gallery/4.diningroom.jpg" alt="dining room" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 6/17 </div>
+                        <img src="images/gallery/5.kitchen.jpg" alt="kitchen" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 7/17 </div>
+                        <img src="images/gallery/6.breakfastnook.jpg" style="width:100%" alt="breakfast nook">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 8/17 </div>
+                        <img src="images/gallery/7.wetroom.jpg" alt="wetroom" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 9/17 </div>
+                        <img src="images/gallery/8.Gamesroom.jpg" alt="games room" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 10/17 </div>
+                        <img src="images/gallery/9.gamesroomview.jpg" alt="games room view" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 11/17 </div>
+                        <img src="images/gallery/9.Twinroom.jpg" alt="twinroom" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 12/17 </div>
+                        <img src="images/gallery/10.double.jpg" alt="double bedroom" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 13/17 </div>
+                        <img src="images/gallery/11.master.jpg" alt="master bedroom" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 14/17 </div>
+                        <img src="images/gallery/12.familybath.jpg" alt="family bathroom" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 15/17 </div>
+                        <img src="images/gallery/13.exteriorgyg.jpg" alt="Ext GYG" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 16/17 </div>
+                        <img src="images/gallery/14.dolphin.jpg" alt="dolphin" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext"> 17/17 </div>
+                        <img src="images/gallery/15.beaches.jpg" alt="beaches" style="width:100%">
+                    </div>
+
+                    <!--Next & previous buttons-->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <!--image text-->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                    <!--                    Thumbnail images-->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/0.GYGlocation.jpg" style="width:100%" onclick="currentSlide(1)" alt="The beachfront location">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/1.viewfromfront.jpg" style="width:100%" onclick="currentSlide(2)" alt="View from the front porch.">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/2.conservatory.jpg" style="width:100%" onclick="currentSlide(3)" alt="Conservatory view over Aberporth Bay">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/3.livingroom%20view.jpg" style="width:100%" onclick="currentSlide(4)" alt="View from the living room over Aberporth Bay">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/4.diningroom.jpg" style="width:100%" onclick="currentSlide(5)" alt="Dining room with view of the garden">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/5.kitchen.jpg" style="width:100%" onclick="currentSlide(6)" alt="Kitchen stocked with the basics">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/6.breakfastnook.jpg" style="width:100%" onclick="currentSlide(7)" alt="Breakfast nook in the kitchen.">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/7.wetroom.jpg" style="width:100%" onclick="currentSlide(8)" alt="Wetroom with washer and dryer">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/8.Gamesroom.jpg" style="width:100%" onclick="currentSlide(9)" alt="Games room set up as extra bedroom.">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/9.gamesroomview.jpg" style="width:100%" onclick="currentSlide(10)" alt="Desk and view from the games room.">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/9.Twinroom.jpg" style="width:100%" onclick="currentSlide(11)" alt="Twin bedroom">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/10.double.jpg" style="width:100%" onclick="currentSlide(12)" alt="Double bedroom">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/11.master.jpg" style="width:100%" onclick="currentSlide(13)" alt="Master bedroom with en-suite bathroom">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/12.familybath.jpg" style="width:100%" onclick="currentSlide(14)" alt="Family bathroom">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/13.exteriorgyg.jpg" style="width:100%" onclick="currentSlide(15)" alt="Golwg Y Graig itself">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/14.dolphin.jpg" style="width:100%" onclick="currentSlide(16)" alt="The Aberporth Dolphin">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/gallery/15.beaches.jpg" style="width:100%" onclick="currentSlide(17)" alt="The two beaches of Aberpoth joined at low tide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="transbox features">
+                <div id="overview">
+
+                    <h3> House Features</h3>
+                    <ul>
+                        <li>Sleeps 6 people ( 8 people by arrangement)</li>
+                        <li> Private parking for 2 cars</li>
+                        <li>Front and back enclosed gardens</li>
+                        <li>Conservatory</li>
+                        <li> 3 double bedrooms</li>
+                        <li>Games room with PS4 and desk</li>
+                        <li>No pets</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <section>
+            <div class="content">
+                <div class="transbox">
+                    <div id="aboutgyg">
+                        <!--                <h2>Golwg Y Graig</h2>-->
+                        <h3>Gorgeous holiday cottage by the beach</h3>
+                        <p>Our gorgeous seaside holiday rental cottage is set right above Aberporth's family friendly Dolwen beach - recently voted one of the best in Wales. Sleeping up to 6 in three bedrooms (two doubles and a twin), plus two more in a comfy sofa bed in it's own room. Enjoy stunning sea views from almost every room. Spot dolphins in the bay from the sunny conservatory or curl up with a book on the upstairs window seats.</p>
+
+                        <p>Feeling energetic? You can have your toes in the sand in seconds and swim, sunbathe or explore the rock pools. Want a walk? The Wales Coast Path passes the house and leads to Tresaith to the North (the first mile of this path is inclusive access) and in the other direction a spectacular clifftop walk to pretty Mwnt beach with it's tiny whitewashed church. </p>
+
+                        <p>The large enclosed garden makes it ideal for families with space to play. Furnished to the highest standards and with a fully equipped kitchen it's an ideal base to explore the West Coast of Wales. The village amenities are within easy walking distance with a small cafe and beach shop a few doors away, a pub and chip shop around the corner and local shop, post office and chemist in the village centre a ten minute walk around the back of the bigger Dyffryn beach.</p>
+
+                        <p>Aberporth achieved "Plastic Free" status from <a href="https://www.sas.org.uk/plastic-free-communities/" target="_blank">Surfers Against Sewage</a> in January 2018 for their efforts to reduce plastic pollution particularly from single use plastics. Many of the businesses in the village have 'plastic free' accreditation and Golwg y Graig seaside holiday cottage was awarded 'plastic free' status in March 2019 shortly after opening, showing that reducing plastic can go hand in hand with a luxurious seaside holiday.</p>
+
+                        <p>Prices from £550. Sorry no pets at this time.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <div class="picbox">
+        <div class="content">
+            <div class="transbox">
+                <div id="location">
+                    <h2>Where am I?</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.9834570377957!2d-4.5494273330504305!3d52.13462241818024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486f3b11ce99f979%3A0x2be1c69410101842!2sHeol+Pentraeth%2C+Aberporth%2C+Cardigan!5e0!3m2!1sen!2suk!4v1563270182290!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <p> Golwg Y Graig is literally 2 minutes from the waters edge.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Want to keep up to date with GYG? Follow us on <a href="https://www.facebook.com/golwgygraig/" target="_blank">Facebook!</a></p>
+    <p>Website &copy Seren Tudor 2019.</p>
+</footer>
+
+<script>
+    //THIS MAKES THE NAVBAR STICKY...FOR THE MOMENT.
+    window.onscroll = function() {
+        myFunction();
+    };
+
+    var nav = document.getElementById("myTopnav");
+
+    var sticky = nav.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            nav.classList.add("sticky")
+        } else {
+            nav.classList.remove("sticky");
+        }
+    }
+
+    //DO NOT TOUCH BELOW THIS. THIS JS CODE WORKS. LEAVE IT 
+    //this is the slideshow
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    //next/previous controls//
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    //thumbnail image controls//
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.lenth; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+
+</script>
+
+</html>

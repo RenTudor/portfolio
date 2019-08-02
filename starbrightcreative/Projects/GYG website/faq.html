@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1">
+    <title> GYG FAQ</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="Scripts/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="picbox faqpicbox">
+        <!--    NAVIGATION BAR-->
+        <div class="navbar wave" id="myTopnav">
+            <label for="toggle"> &#9776; </label>
+            <input type="checkbox" id="toggle">
+            <div class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="amenities.html">Fun Things</a>
+                <a href="faq.html">FAQ's</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="transbox">
+                <h2 class="faqtitle"> Frequently Asked Questions</h2>
+            </div>
+            <section class="faq">
+
+                <div class="transbox features">
+                    <div id="faqnav">
+                        <h3>Questions</h3>
+                        <ul>
+                            <li><a href="#plastic">What does 'plastic free' mean?</a></li>
+                            <li><a href="#sleep">Sleeps 8 on request</a></li>
+                            <li><a href="#parking">What's parking like</a></li>
+                            <li><a href="#dog">Can I bring my dog/s</a></li>
+                            <li><a href="#garden">Is there a garden</a></li>
+                            <li><a href="#kitchen">What does kitchen stocked with essentials mean?</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="transbox">
+                    <div id="faqanswers">
+                        <h3>Answers</h3>
+                        <dl>
+                            <dt id="sleep">Sleeps 8 on request?</dt>
+                            <dd>The games room has a sofa bed that turns into a double bed if you need the extra sleeping space!</dd>
+                            <hr>
+                            <dt id="parking">What's the parking like?</dt>
+                            <dd>There is parking for two cars on the drivaway in the front. Please be aware the turn can be tight.</dd>
+                            <hr>
+                            <dt id="dog">Can i bring my dog/s?</dt>
+                            <dd>We do not currently allow dogs at Gowlg y Graig. Also, please be aware the smaller beach (Dolwen) is dog-free during the summer. The bigger beach on the other side of the rocks allows dogs all year round. </dd>
+                            <hr>
+                            <dt id="garden">Is there a garden?</dt>
+                            <dd>There is a large enclosed back garden, perfect for BBQ's and sunbathing. There are also two grass squares either side of the driveway.</dd>
+                            <hr>
+                            <dt id="kitchen">What does 'kitchen stocked with essentials' mean?</dt>
+                            <dd> It means you don't have to worry about salt, pepper, utensils, or milk. Any other food or drink will need to be taken with you, or bought at the nearest shop. </dd>
+                            <hr>
+                            <dt id="plastic">
+                                What does 'Plastic Free' mean?
+                            </dt>
+                            <dd>It means that we don't use any singl use plastics, and reuse and recycle wherever possible. There are still plastic items in use, but these are items that have no current alternatives, or are multi-use.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>Want to keep up to date with GYG? Follow us on <a href="https://www.facebook.com/golwgygraig/" target="_blank">Facebook!</a></p>
+
+        <p>Website &copy Seren Tudor 2019.</p>
+    </footer>
+
+</body>
+<script>
+    //THIS MAKES THE NAVBAR STICKY...FOR THE MOMENT.
+    window.onscroll = function() {
+        myFunction();
+    };
+
+    var nav = document.getElementById("myTopnav");
+
+    var sticky = nav.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            nav.classList.add("sticky")
+        } else {
+            nav.classList.remove("sticky");
+        }
+    }
+
+</script>
+
+</html>
